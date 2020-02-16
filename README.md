@@ -2,11 +2,11 @@
 
 ## Description
 
--   I have used Vue standard library with a few components to achieve this test.
--   I have used Google Maps along with my own Google API key as Google Maps implementation needs an API key to work with. I usually use `.env` file for environment variables for that but since you cannot have access to environment files via GitHub as they are ignored in `.gitignore` files, I just pasted the key in `main.js` file for you to use.
+-   I have used _Vue standard library_ with a few components to achieve this.
+-   I have used _Google Maps_ along with my own Google API Key as Google Maps implementation needs an API key to work with. I usually use `.env` file for environment variables for that but since you cannot have access to environment files via GitHub as they are ignored in `.gitignore` files, I just pasted the key in `main.js` file for you to use.
 -   I have pulled Axios to work with your API endpoint in AWS but because of [CORS issue (Cross-Origin Resource Sharing)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) I downloaded the JSON file and placed it in `api` directory. However, the concept is the same. You can uncomment my comments in `App.vue` file and see how I would achieve this with Axios if there was no CORS issue.
 -   I could have used Vuex, Nuxt-SSR, Jest and typescript but this test was builed with standard Vue library which can be installed with `@vue-cli` version 3.
--   I can build this with Vanilla Javascript and jQuery without any frameworks. Please let me know if you want me to do that.
+-   _I can build this with Vanilla Javascript and jQuery without any frameworks. Please let me know if you want me to do that._
 
 # Requirements
 
