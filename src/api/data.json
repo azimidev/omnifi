@@ -1,0 +1,320 @@
+[
+    {
+        "name": "Åland Islands",
+        "capital": "Mariehamn",
+        "latitude": 60.116667,
+        "longitude": 19.9
+    },
+    {
+        "name": "Albania",
+        "capital": "Tirana",
+        "latitude": 41,
+        "longitude": 20
+    },
+    {
+        "name": "Andorra",
+        "capital": "Andorra la Vella",
+        "latitude": 42.5,
+        "longitude": 1.5
+    },
+    {
+        "name": "Austria",
+        "capital": "Vienna",
+        "latitude": 47.33333333,
+        "longitude": 13.33333333
+    },
+    {
+        "name": "Belarus",
+        "capital": "Minsk",
+        "latitude": 53,
+        "longitude": 28
+    },
+    {
+        "name": "Belgium",
+        "capital": "Brussels",
+        "latitude": 50.83333333,
+        "longitude": 4
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "capital": "Sarajevo",
+        "latitude": 44,
+        "longitude": 18
+    },
+    {
+        "name": "Bulgaria",
+        "capital": "Sofia",
+        "latitude": 43,
+        "longitude": 25
+    },
+    {
+        "name": "Croatia",
+        "capital": "Zagreb",
+        "latitude": 45.16666666,
+        "longitude": 15.5
+    },
+    {
+        "name": "Cyprus",
+        "capital": "Nicosia",
+        "latitude": 35,
+        "longitude": 33
+    },
+    {
+        "name": "Czech Republic",
+        "capital": "Prague",
+        "latitude": 49.75,
+        "longitude": 15.5
+    },
+    {
+        "name": "Denmark",
+        "capital": "Copenhagen",
+        "latitude": 56,
+        "longitude": 10
+    },
+    {
+        "name": "Estonia",
+        "capital": "Tallinn",
+        "latitude": 59,
+        "longitude": 26
+    },
+    {
+        "name": "Faroe Islands",
+        "capital": "Tórshavn",
+        "latitude": 62,
+        "longitude": 7
+    },
+    {
+        "name": "Finland",
+        "capital": "Helsinki",
+        "latitude": 64,
+        "longitude": 26
+    },
+    {
+        "name": "France",
+        "capital": "Paris",
+        "latitude": 46,
+        "longitude": 2
+    },
+    {
+        "name": "Germany",
+        "capital": "Berlin",
+        "latitude": 51,
+        "longitude": 9
+    },
+    {
+        "name": "Gibraltar",
+        "capital": "Gibraltar",
+        "latitude": 36.13333333,
+        "longitude": 5.35
+    },
+    {
+        "name": "Greece",
+        "capital": "Athens",
+        "latitude": 39,
+        "longitude": 22
+    },
+    {
+        "name": "Guernsey",
+        "capital": "St. Peter Port",
+        "latitude": 49.46666666,
+        "longitude": 2.58333333
+    },
+    {
+        "name": "Holy See",
+        "capital": "Rome",
+        "latitude": 41.9,
+        "longitude": 12.45
+    },
+    {
+        "name": "Hungary",
+        "capital": "Budapest",
+        "latitude": 47,
+        "longitude": 20
+    },
+    {
+        "name": "Iceland",
+        "capital": "Reykjavík",
+        "latitude": 65,
+        "longitude": 18
+    },
+    {
+        "name": "Ireland",
+        "capital": "Dublin",
+        "latitude": 53,
+        "longitude": 8
+    },
+    {
+        "name": "Isle of Man",
+        "capital": "Douglas",
+        "latitude": 54.25,
+        "longitude": 4.5
+    },
+    {
+        "name": "Italy",
+        "capital": "Rome",
+        "latitude": 42.83333333,
+        "longitude": 12.83333333
+    },
+    {
+        "name": "Jersey",
+        "capital": "Saint Helier",
+        "latitude": 49.25,
+        "longitude": 2.16666666
+    },
+    {
+        "name": "Latvia",
+        "capital": "Riga",
+        "latitude": 57,
+        "longitude": 25
+    },
+    {
+        "name": "Liechtenstein",
+        "capital": "Vaduz",
+        "latitude": 47.26666666,
+        "longitude": 9.53333333
+    },
+    {
+        "name": "Lithuania",
+        "capital": "Vilnius",
+        "latitude": 56,
+        "longitude": 24
+    },
+    {
+        "name": "Luxembourg",
+        "capital": "Luxembourg",
+        "latitude": 49.75,
+        "longitude": 6.16666666
+    },
+    {
+        "name": "Macedonia (the former Yugoslav Republic of)",
+        "capital": "Skopje",
+        "latitude": 41.83333333,
+        "longitude": 22
+    },
+    {
+        "name": "Malta",
+        "capital": "Valletta",
+        "latitude": 35.83333333,
+        "longitude": 14.58333333
+    },
+    {
+        "name": "Moldova (Republic of)",
+        "capital": "Chișinău",
+        "latitude": 47,
+        "longitude": 29
+    },
+    {
+        "name": "Monaco",
+        "capital": "Monaco",
+        "latitude": 43.73333333,
+        "longitude": 7.4
+    },
+    {
+        "name": "Montenegro",
+        "capital": "Podgorica",
+        "latitude": 42.5,
+        "longitude": 19.3
+    },
+    {
+        "name": "Netherlands",
+        "capital": "Amsterdam",
+        "latitude": 52.5,
+        "longitude": 5.75
+    },
+    {
+        "name": "Norway",
+        "capital": "Oslo",
+        "latitude": 62,
+        "longitude": 10
+    },
+    {
+        "name": "Poland",
+        "capital": "Warsaw",
+        "latitude": 52,
+        "longitude": 20
+    },
+    {
+        "name": "Portugal",
+        "capital": "Lisbon",
+        "latitude": 39.5,
+        "longitude": 8
+    },
+    {
+        "name": "Republic of Kosovo",
+        "capital": "Pristina",
+        "latitude": 42.666667,
+        "longitude": 21.166667
+    },
+    {
+        "name": "Romania",
+        "capital": "Bucharest",
+        "latitude": 46,
+        "longitude": 25
+    },
+    {
+        "name": "Russian Federation",
+        "capital": "Moscow",
+        "latitude": 60,
+        "longitude": 100
+    },
+    {
+        "name": "San Marino",
+        "capital": "City of San Marino",
+        "latitude": 43.76666666,
+        "longitude": 12.41666666
+    },
+    {
+        "name": "Serbia",
+        "capital": "Belgrade",
+        "latitude": 44,
+        "longitude": 21
+    },
+    {
+        "name": "Slovakia",
+        "capital": "Bratislava",
+        "latitude": 48.66666666,
+        "longitude": 19.5
+    },
+    {
+        "name": "Slovenia",
+        "capital": "Ljubljana",
+        "latitude": 46.11666666,
+        "longitude": 14.81666666
+    },
+    {
+        "name": "Spain",
+        "capital": "Madrid",
+        "latitude": 40,
+        "longitude": 4
+    },
+    {
+        "name": "Svalbard and Jan Mayen",
+        "capital": "Longyearbyen",
+        "latitude": 78,
+        "longitude": 20
+    },
+    {
+        "name": "Sweden",
+        "capital": "Stockholm",
+        "latitude": 62,
+        "longitude": 15
+    },
+    {
+        "name": "Switzerland",
+        "capital": "Bern",
+        "latitude": 47,
+        "longitude": 8
+    },
+    {
+        "name": "Ukraine",
+        "capital": "Kiev",
+        "latitude": 49,
+        "longitude": 32
+    },
+    {
+        "name": "United Kingdom of Great Britain and Northern Ireland",
+        "capital": "London",
+        "latitude": 54,
+        "longitude": 2
+    }
+]
