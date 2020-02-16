@@ -18,6 +18,16 @@
                 :draggable="true"
                 @click="showDetails(location)"
             />
+
+            <GmapInfoWindow :position="position" v-if="showInfoWindow" @closeclick="showInfoWindow = false">
+                <div>
+                    <h4>
+                        {{ location.name }}
+                        <br />
+                        <small>{{ location.capital }}</small>
+                    </h4>
+                </div>
+            </GmapInfoWindow>
         </GmapMap>
     </div>
 </template>
