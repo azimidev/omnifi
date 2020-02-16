@@ -1,12 +1,6 @@
 <template>
     <div id="map">
-        <GmapMap
-            :center="position"
-            :zoom="zoom"
-            map-type-id="terrain"
-            style="width: 100%; height: 500px"
-            @click="showInfoWindow = false"
-        >
+        <GmapMap :center="position" :zoom="zoom" style="width: 100%; height: 500px" @click="showInfoWindow = false">
             <GmapMarker
                 v-for="(location, key) in locations"
                 :key="key"
@@ -18,14 +12,11 @@
                 :draggable="true"
                 @click="showDetails(location)"
             />
-
             <GmapInfoWindow :position="position" v-if="showInfoWindow" @closeclick="showInfoWindow = false">
-                <div>
-                    <h4>
-                        {{ location.name }}
-                        <br />
-                        <small>{{ location.capital }}</small>
-                    </h4>
+                <div class="info">
+                    {{ location.name }}
+                    <br />
+                    <small>{{ location.capital }}</small>
                 </div>
             </GmapInfoWindow>
         </GmapMap>
@@ -65,5 +56,10 @@ export default {
 #map {
     width: 100%;
     height: 100%;
+}
+
+.info {
+    text-align: center;
+    font-weight: bold;
 }
 </style>
