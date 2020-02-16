@@ -66,7 +66,7 @@ export default {
 html,
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #444;
+    color: gray;
     margin: 0;
     padding: 0;
 }
@@ -78,46 +78,14 @@ h3 {
 }
 
 h1 {
-    color: #1e87b5;
+    color: lightseagreen;
+}
+
+h2 {
+    color: tomato;
 }
 
 h3 {
-    color: #731eb5;
-}
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 16px;
-    text-align: center;
-}
-
-.pins {
-    padding: 0 16px 16px 16px;
-}
-
-ul#locations {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-ul#locations li {
-    width: 48%;
-    margin: 3px;
-}
-
-@media only screen and (min-width: 768px) {
-    ul#locations li {
-        width: 24%;
-    }
-}
-
-#map {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    color: mediumpurple;
 }
 </style>

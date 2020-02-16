@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="map">
         <GmapMap
             :center="position"
             :zoom="zoom"
@@ -44,6 +44,12 @@ export default {
         };
     },
     methods: {
+        /**
+         * Show details of a location.
+         * Set the position,
+         * show info window,
+         * zoom and set the location.
+         */
         showDetails(location) {
             this.$set(this.position, "lat", parseFloat(location.latitude));
             this.$set(this.position, "lng", parseFloat(location.longitude));
@@ -54,3 +60,10 @@ export default {
     }
 };
 </script>
+
+<style scoped>
+#map {
+    width: 100%;
+    height: 100%;
+}
+</style>

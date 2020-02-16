@@ -4,12 +4,13 @@ import App from './App.vue'
 
 Vue.use(VueGoogleMaps, {
   load: {
+    /*
+     * Usually I put this Google API key in env variables
+     * But this time I didn't because you won't have access to
+     * .env file in version control system like GitHub
+     */
     key: 'AIzaSyBHTFWKKWvYfxs9rP0fEgLlPo8K2V1MsoM',
-    libraries: 'places', // This is required if you use the Autocomplete plugin
-    // OR: libraries: 'places,drawing'
-    // OR: libraries: 'places,drawing,visualization'
-
-    // v: '3.26',
+    libraries: 'places',
   },
   installComponents: true
 })
