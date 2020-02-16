@@ -1,5 +1,5 @@
-<template
-    ><div clas="pins">
+<template>
+    <div clas="pins">
         <h3>Locations</h3>
         <ul id="locations">
             <li v-for="(location, key) in locations" :key="key">

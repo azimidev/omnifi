@@ -2,6 +2,7 @@
     <div id="app">
         <Header />
         <Locations :locations="locations" />
+        <MapWrapper :locations="locations" />
     </div>
 </template>
 
@@ -9,6 +10,7 @@
 import data from "./api/data.json";
 import Header from "./components/Header";
 import Locations from "./components/Locations";
+import MapWrapper from "./components/MapWrapper";
 
 /*
  * I wanted to use Axios to load the data from AWS.
@@ -29,7 +31,8 @@ export default {
     name: "App",
     components: {
         Header,
-        Locations
+        Locations,
+        MapWrapper
     },
     data() {
         return {
