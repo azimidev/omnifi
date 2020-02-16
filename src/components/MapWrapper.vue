@@ -42,6 +42,15 @@ export default {
             location: {},
             zoom: 4
         };
+    },
+    methods: {
+        showDetails(location) {
+            this.$set(this.position, "lat", parseFloat(location.latitude));
+            this.$set(this.position, "lng", parseFloat(location.longitude));
+            this.showInfoWindow = true;
+            this.location = location;
+            this.zoom = 5;
+        }
     }
 };
 </script>
