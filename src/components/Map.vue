@@ -1,6 +1,6 @@
 <template>
     <div id="map">
-        <GmapMap :center="position" :zoom="zoom" style="width: 100%; height: 500px" @click="closeInfoWindow()">
+        <GmapMap :center="position" :zoom="zoom" class="map-component" @click="closeInfoWindow()">
             <GmapMarker
                 v-for="(location, key) in locations"
                 :key="key"
@@ -90,6 +90,11 @@ export default {
 #map {
     width: 100%;
     height: 100%;
+}
+
+.map-component {
+    width: 100%;
+    height: 500px;
 }
 
 .info {
