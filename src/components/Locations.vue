@@ -20,7 +20,12 @@
 
 <script>
 export default {
-    props: ["locations"],
+    props: {
+        locations: {
+            type: Array,
+            default: null
+        }
+    },
     data() {
         return {
             location: false

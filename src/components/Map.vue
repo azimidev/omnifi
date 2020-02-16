@@ -1,6 +1,6 @@
 <template>
     <div id="map">
-        <GmapMap :center="position" :zoom="zoom" style="width: 100%; height: 500px" @click="showInfoWindow = false">
+        <GmapMap :center="position" :zoom="zoom" style="width: 100%; height: 500px" @click="closeInfoWindow()">
             <GmapMarker
                 v-for="(location, key) in locations"
                 :key="key"
@@ -12,7 +12,12 @@
                 :draggable="true"
                 @click="showDetails(location)"
             />
-            <GmapInfoWindow :position="position" v-if="showInfoWindow" @closeclick="showInfoWindow = false">
+            <GmapInfoWindow
+                :position="position"
+                v-if="showInfoWindow"
+                @closeclick="closeInfoWindow()"
+                :options="options"
+            >
                 <div class="info">
                     {{ location.name }}
                     <br />
@@ -25,7 +30,12 @@
 
 <script>
 export default {
-    props: ["locations"],
+    props: {
+        locations: {
+            type: Array,
+            default: null
+        }
+    },
     data() {
         return {
             showInfoWindow: false,
@@ -33,6 +43,21 @@ export default {
             location: {},
             zoom: 4
         };
+    },
+    computed: {
+        /**
+         * Change information window position
+         * on top of the marker,
+         * instead of overlapping the marker.
+         */
+        options() {
+            return {
+                pixelOffset: {
+                    width: 0,
+                    height: -35
+                }
+            };
+        }
     },
     methods: {
         /**
@@ -47,6 +72,15 @@ export default {
             this.showInfoWindow = true;
             this.location = location;
             this.zoom = 5;
+        },
+
+        /**
+         * Close information window
+         * and zoom out.
+         */
+        closeInfoWindow() {
+            this.showInfoWindow = false;
+            this.zoom = 4;
         }
     }
 };
