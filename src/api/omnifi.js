@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-	baseURL: './static',
+	baseURL: 'https://s3-eu-west-1.amazonaws.com/',
 });

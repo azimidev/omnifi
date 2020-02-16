@@ -10,7 +10,7 @@
                 :key="key"
                 @click="showInfo(item)"
                 class="pointer"
-                :class="location.name === item.name ? 'highlight' : ''"
+                :class="location.name === item.name ? 'highlight' : 'hover'"
             >
                 {{ item.name }}
             </li>
@@ -29,10 +29,10 @@ export default {
     methods: {
         /**
          * Show the location information.
-         * Hide it after duration of default 1.5 seconds.
+         * Hide it after duration of default 2 seconds.
          * Use Vue Animation.
          */
-        showInfo(location, duration = 1500) {
+        showInfo(location, duration = 2000) {
             this.location = location;
             setTimeout(() => {
                 this.location = false;
@@ -50,6 +50,10 @@ export default {
 .highlight {
     font-weight: bold;
     color: coral;
+}
+
+.hover:hover {
+    color: mediumturquoise;
 }
 
 .pins {

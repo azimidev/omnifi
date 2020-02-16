@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <Header />
-        <MapWrapper :locations="locations" />
+        <Map :locations="locations" />
         <Locations :locations="locations" />
     </div>
 </template>
@@ -10,7 +10,7 @@
 import data from "./api/data.json";
 import Header from "./components/Header";
 import Locations from "./components/Locations";
-import MapWrapper from "./components/MapWrapper";
+import Map from "./components/Map";
 
 /*
  * I wanted to use Axios to load the data from AWS.
@@ -32,7 +32,7 @@ export default {
     components: {
         Header,
         Locations,
-        MapWrapper
+        Map
     },
     data() {
         return {
@@ -46,7 +46,7 @@ export default {
          * AXIOS PART - IGNORED DUE TO CORS ISSUE.
          */
 
-        // omnifi.get("/omnifi.json").then(
+        // omnifi.get("/omnifi/techtests/locations.json").then(
         //     response => {
         //         if (response.data) {
         //             this.locations = response.data;

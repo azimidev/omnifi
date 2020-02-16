@@ -5,8 +5,8 @@
                 v-for="(location, key) in locations"
                 :key="key"
                 :position="{
-                    lat: parseFloat(location.latitude),
-                    lng: parseFloat(location.longitude)
+                    lat: location.latitude,
+                    lng: location.longitude
                 }"
                 :clickable="true"
                 :draggable="true"
@@ -42,8 +42,8 @@ export default {
          * zoom and set the location.
          */
         showDetails(location) {
-            this.$set(this.position, "lat", parseFloat(location.latitude));
-            this.$set(this.position, "lng", parseFloat(location.longitude));
+            this.$set(this.position, "lat", location.latitude);
+            this.$set(this.position, "lng", location.longitude);
             this.showInfoWindow = true;
             this.location = location;
             this.zoom = 5;
