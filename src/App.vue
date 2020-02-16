@@ -1,8 +1,8 @@
 <template>
     <div id="app">
         <Header />
-        <Locations :locations="locations" />
         <MapWrapper :locations="locations" />
+        <Locations :locations="locations" />
     </div>
 </template>
 
